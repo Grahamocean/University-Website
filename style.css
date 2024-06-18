@@ -200,3 +200,75 @@ nav .fa-solid {
     flex-direction: column;
   }
 }
+
+/* CAMPUS STYLING */
+.campus {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 3.125em;
+}
+
+.campus-vertical {
+  flex-basis: 32%;
+  border-radius: 10%;
+  margin-bottom: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+.campus-vertical img {
+  width: 100%;
+  display: block;
+}
+
+.layer {
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+
+.layer:hover {
+  background: rgba(226, 0, 0, 0.5);
+}
+
+.layer h3 {
+  width: 100%;
+  font-size: 1.625rem;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--white-color);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.layer:hover h3 {
+  bottom: 49%;
+  opacity: 1;
+}
+
+/* FACILITIES STYLING */
+.facilities {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 3.125em;
+}
+
+.facilities-vertical {
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+}
+
+.facilities-vertical img {
+  width: 100%;
+  border-radius: 10px;
+}
