@@ -185,10 +185,18 @@ nav .fa-solid {
 
 .course-vertical:hover {
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 
 .course-vertical h3 {
   text-align: center;
   font-weight: 600;
   margin: 10px 0;
+}
+
+/* FOR MOBILE */
+@media (max-width: 700px) {
+  .horizontal {
+    flex-direction: column;
+  }
 }
