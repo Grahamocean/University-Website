@@ -283,3 +283,11 @@ nav .fa-solid {
   margin-bottom: 0.9em;
   text-align: left;
 }
+
+/* TESTIMONIALS STYLING */
+.testimonials {
+  width: 80%;
+  margin: auto;
+  padding-top: 3.125em;
+  text-align: center;
+}
