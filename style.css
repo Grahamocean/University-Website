@@ -315,4 +315,17 @@ nav .fa-solid {
 }
 
 .testimonial-vertical h3 {
+  margin-top: 0.9em;
+  text-align: left;
+}
+
+.testimonial-vertical .fa-solid {
+  color: var(--tomato);
+}
+
+/* FOR MOBILE */
+@media (max-width: 700px) {
+  .testimonial-vertical img {
+    flex-direction: column;
+  }
 }
