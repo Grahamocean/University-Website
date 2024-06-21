@@ -329,3 +329,22 @@ nav .fa-solid {
     flex-direction: column;
   }
 }
+
+/* CALL TO ACTION */
+.action {
+  margin: 6.25em auto;
+  width: 80%;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),
+    url(Images/banner2.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  border-radius: 10px;
+  padding: 6.25em 0;
+}
+
+.action h1 {
+  color: var(--white-color);
+  margin-bottom: 40px;
+  padding: 0;
+}
