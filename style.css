@@ -358,5 +358,20 @@ nav .fa-solid {
 
 /* FOOTER SECTION STYLING */
 .footer {
-  width: 80%;
+  width: 100%;
+  padding: 1.875em 0;
+  text-align: center;
+}
+
+.footer h4 {
+  margin-top: 1.6em;
+  margin-bottom: 1.2em;
+  font-weight: 600;
+}
+
+.social-icons .fa-brands {
+  color: var(--tomato);
+  margin: 0 13px;
+  padding: 1.1em 0;
+  cursor: pointer;
 }
