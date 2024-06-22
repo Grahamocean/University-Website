@@ -348,3 +348,15 @@ nav .fa-solid {
   margin-bottom: 40px;
   padding: 0;
 }
+
+/* MOBILE */
+@media (max-width: 700px) {
+  .cta h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/* FOOTER SECTION STYLING */
+.footer {
+  width: 80%;
+}
