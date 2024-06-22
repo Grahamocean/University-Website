@@ -386,3 +386,11 @@ nav .fa-solid {
   color: var(--tomato);
   margin: 0 0.3em;
 }
+
+/* MOBILE */
+@media (max-width: 700px) {
+  .footer {
+    padding: 0 2em;
+  }
+  }
+}
